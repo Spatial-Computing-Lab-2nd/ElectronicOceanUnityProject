@@ -5,85 +5,77 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UnityEngine.XR.ARFoundation.Samples
+public class Logger : MonoBehaviour
 {
-    public class Logger : MonoBehaviour
+    [SerializeField]
+    Text m_LogText;
+    public Text logText
     {
-        [SerializeField]
-        Text m_LogText;
-        public Text logText
+        get { return s_LogText; }
+        set
         {
-            get => m_LogText;
-            set => m_LogText = value;
+            m_LogText = value;
+            s_LogText = value;
         }
+    }
 
-        [SerializeField]
-        int m_VisibleMessageCount = 40;
-        public int visibleMessageCount
+    [SerializeField]
+    int m_VisibleMessageCount = 40;
+    public int visibleMessageCount
+    {
+        get { return s_VisibleMessageCount; }
+        set
         {
-            get => m_VisibleMessageCount;
-            set => m_VisibleMessageCount = value;
+            m_VisibleMessageCount = value;
+            s_VisibleMessageCount = value;
         }
+    }
 
-        int m_LastMessageCount;
+    int m_LastMessageCount;
 
-        static List<string> s_Log = new List<string>();
+    static int s_VisibleMessageCount;
 
-        static StringBuilder m_StringBuilder = new StringBuilder();
+    static Text s_LogText;
 
-        void Awake()
+    static List<string> s_Log = new List<string>();
+
+    static StringBuilder s_StringBuilder = new StringBuilder();
+
+    void Awake()
+    {
+        s_LogText = m_LogText;
+        s_VisibleMessageCount = m_VisibleMessageCount;
+        Log("Log console initialized.");
+    }
+
+    void Update()
+    {
+        lock (s_Log)
         {
-            if (m_LogText == null)
+            if (m_LastMessageCount != s_Log.Count)
             {
-                m_LogText = GetComponent<Text>();
-            }
-
-            lock (s_Log)
-            {
-                s_Log?.Clear();
-            }
-
-            Log("Log console initialized.");
-        }
-
-        void Update()
-        {
-            lock (s_Log)
-            {
-                if (m_LastMessageCount != s_Log.Count)
+                s_StringBuilder.Clear();
+                var startIndex = Mathf.Max(s_Log.Count - s_VisibleMessageCount, 0);
+                for (int i = startIndex; i < s_Log.Count; ++i)
                 {
-                    m_StringBuilder.Clear();
-                    var startIndex = Mathf.Max(s_Log.Count - m_VisibleMessageCount, 0);
-                    for (int i = startIndex; i < s_Log.Count; ++i)
-                    {
-                        m_StringBuilder.Append($"{i:000}> {s_Log[i]}\n");
-                    }
-
-                    var text = m_StringBuilder.ToString();
-
-                    if (m_LogText)
-                    {
-                        m_LogText.text = text;
-                    }
-                    else
-                    {
-                        Debug.Log(text);
-                    }
+                    s_StringBuilder.Append($"{i:000}> {s_Log[i]}\n");
                 }
 
-                m_LastMessageCount = s_Log.Count;
+                s_LogText.text = s_StringBuilder.ToString();
             }
+
+            m_LastMessageCount = s_Log.Count;
         }
+    }
 
-        public static void Log(string message)
+    public static void Log(string message)
+    {
+        lock (s_Log)
         {
-            lock (s_Log)
-            {
-                if (s_Log == null)
-                    s_Log = new List<string>();
+            if (s_Log == null)
+                s_Log = new List<string>();
 
-                s_Log.Add(message);
-            }
+            s_Log.Add(message);
         }
     }
 }
