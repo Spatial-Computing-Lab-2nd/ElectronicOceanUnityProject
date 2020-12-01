@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Aguro" t="Include">
+          <e p="Script" t="Include">
+            <e p="AnemoneManager.cs" t="Include" />
+            <e p="MoveAnemone.cs" t="Include" />
+            <e p="ShotAnemone.cs" t="Include" />
+          </e>
+          <e p="Standard Assets" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Water" t="Include">
+                <e p="Water4" t="Include">
+                  <e p="GerstnerDisplaceEditor.cs" t="Include" />
+                  <e p="PlanarReflectionEditor.cs" t="Include" />
+                  <e p="SpecularLightingEditor.cs" t="Include" />
+                  <e p="WaterBaseEditor.cs" t="Include" />
+                  <e p="WaterEditorUtility.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Environment" t="Include">
+              <e p="Water" t="Include">
+                <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+                <e p="Water" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="Displace.cs" t="Include" />
+                    <e p="GerstnerDisplace.cs" t="Include" />
+                    <e p="MeshContainer.cs" t="Include" />
+                    <e p="PlanarReflection.cs" t="Include" />
+                    <e p="SpecularLighting.cs" t="Include" />
+                    <e p="Water.cs" t="Include" />
+                    <e p="WaterBase.cs" t="Include" />
+                    <e p="WaterTile.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="FXWaterPro.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="ImageTracking" t="Include">
+            <e p="TrackedImageInfoManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ARCoreFaceRegionManager.cs" t="Include" />
+          <e p="ARFeatheredPlaneMeshVisualizer.cs" t="Include" />
+          <e p="ARKitBlendShapeVisualizer.cs" t="Include" />
+          <e p="ARWorldMapController.cs" t="Include" />
+          <e p="CameraConfigController.cs" t="Include" />
+          <e p="DisableVerticalPlanes.cs" t="Include" />
+          <e p="EnvironmentProbeVisualizer.cs" t="Include" />
+          <e p="LightEstimation.cs" t="Include" />
+          <e p="LightEstimationUI.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+          <e p="MakeAppearOnPlane.cs" t="Include" />
+          <e p="PlaceMultipleObjectsOnPlane.cs" t="Include" />
+          <e p="PlaceOnPlane.cs" t="Include" />
+          <e p="PlaneDetectionController.cs" t="Include" />
+          <e p="ReferencePointCreator.cs" t="Include" />
+          <e p="RotationController.cs" t="Include" />
+          <e p="ScaleController.cs" t="Include" />
+          <e p="SetTargetFramerate.cs" t="Include" />
+          <e p="SupportChecker.cs" t="Include" />
+          <e p="TestCameraImage.cs" t="Include" />
+          <e p="UX" t="Include">
+            <e p="FadePlaneOnBoundaryChange.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="FeatheredPlaneShader.shader" t="Include" />
+        </e>
+        <e p="SkySerie Freebie" t="Include">
+          <e p="Hdri setup.txt" t="Include" />
+        </e>
+      </e>
+      <e p="ElectronicOceanUnityProject.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_ElectronicOceanUnityProject.-2124063882.00" t="ExcludeRecursive" />
+  </component>
+</project>
