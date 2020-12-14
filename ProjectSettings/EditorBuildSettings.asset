@@ -59,5 +59,7 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
       type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 387c9459d92b14aca94a0839c6cf3f34,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9dbbcc4ef5e754cba807b53e35f3c708,
       type: 2}

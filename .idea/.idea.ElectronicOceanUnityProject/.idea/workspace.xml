@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90043f01-5f92-42e3-8867-eb957f9ec807" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ElectronicOceanUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ElectronicOceanUnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Scenes/ArFoundationReferencePoints.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Scenes/ArFoundationReferencePoints.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Displace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Displace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Displace.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Displace.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Water.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Water.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Water.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/Water.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606809927179</updated>
-      <workItem from="1606809928745" duration="2619000" />
+      <workItem from="1606809928745" duration="3285000" />
+      <workItem from="1607326350576" duration="42000" />
     </task>
     <servers />
   </component>

@@ -41,6 +41,21 @@
                     <e p="FXWaterPro.shader" t="Include" />
                   </e>
                 </e>
+                <e p="Water4" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="FXWater4Advanced.shader" t="Include" />
+                    <e p="FXWater4Simple.shader" t="Include" />
+                    <e p="WaterInclude.cginc" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Water (Basic)" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="WaterBasic.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterBasic.shader" t="Include" />
+                </e>
               </e>
             </e>
           </e>
@@ -81,6 +96,34 @@
         </e>
         <e p="SkySerie Freebie" t="Include">
           <e p="Hdri setup.txt" t="Include" />
+        </e>
+        <e p="VRWaterShader2" t="Include">
+          <e p="Editor" t="Include">
+            <e p="VRWS2Inspector.cs" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="Standard.shader" t="Include" />
+            <e p="VRWSCore.cginc" t="Include" />
+            <e p="VRWSShadowCaster.cginc" t="Include" />
+            <e p="VRWSTess.cginc" t="Include" />
+          </e>
+          <e p="VRWaterShader(legacy)" t="Include">
+            <e p="Readme.txt" t="Include" />
+            <e p="Readme_ja.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="Double Sided.shader" t="Include" />
+              <e p="GLES30" t="Include">
+                <e p="Double Sided.shader" t="Include" />
+                <e p="Standard.shader" t="Include" />
+                <e p="ZWrite Double Sided.shader" t="Include" />
+                <e p="ZWrite Standard.shader" t="Include" />
+              </e>
+              <e p="Standard.shader" t="Include" />
+              <e p="ZWrite Double Sided.shader" t="Include" />
+              <e p="ZWrite Standard.shader" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="ElectronicOceanUnityProject.sln" t="IncludeFlat" />
